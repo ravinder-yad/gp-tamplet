@@ -1,0 +1,392 @@
+.aaa{
+    background-image: url(https://bootstrapmade.com/demo/templates/Gp/assets/img/hero-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+.hr{
+  background-color: #ffc451 !important;
+  color: black !important;
+  padding: 10px !important;
+  border-radius: 5px !important;
+}
+
+.aac:hover{
+    background-color:#ffc451 !important;
+    color: black !important;
+
+}
+.ac:hover .ac1{
+
+    border-color: #ffc451 !important;
+    color: #ffc451 !important;
+}
+.ac:hover{
+
+    border-color: #ffc451 !important;
+    color: #ffc451 !important;
+}
+
+
+    .asj{
+        text-align:center;
+        margin-left: 460px;
+        width: 20%;
+        height: 50px;
+        border: 2px solid #Fff;
+    }
+    .asj:hover{
+color: white;
+background-color: #FFC451;
+border: 2px solid black;
+    }
+
+    
+.abcd{
+    transition: 1s;
+    transform: translateY(10px);
+  
+  }
+  .abcd:hover{
+    transition: 1s;
+    transform: translateY(-10px);
+  box-shadow: 0px 5px 90px 0px color-mix(in srgb, var(--default-color), transparent 90%);
+  
+  }
+
+
+  .dd{
+    opacity: 0.6 !important;
+    filter: grayscale(1);
+    transition: 1s !important;
+}
+.dd:hover{
+    opacity: 1 !important;
+    filter: grayscale(0.1);
+    transition: 1s !important;
+}
+
+.abcd:hover{
+    -webkit-box-shadow: 0px 0px 29px -5px rgba(157,157,163,1);
+    -moz-box-shadow: 0px 0px 29px -5px rgba(157,157,163,1);
+    box-shadow: 0px 0px 29px -5px rgb(189,189,194);
+    
+}
+
+
+.abcd{
+    transition-duration: 3s;
+    transform: translateY(10px);
+  }
+.abcd:hover{
+    transition-duration: 1s;
+    transform: translateY(-10px);
+  }
+
+  .aac:hover{
+    background-color:#ffc451 !important;
+    color: black !important;
+
+}
+
+
+
+.abc{
+    -webkit-box-shadow: 0px 0px 29px -5px rgba(157,157,163,1);
+    -moz-box-shadow: 0px 0px 29px -5px rgba(157,157,163,1);
+    box-shadow: 0px 0px 29px -5px rgb(189,189,194);
+}
+
+.baby:hover{
+    opacity: 1;
+}
+
+.baby:hover{
+    opacity: 0.8;
+}
+
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .container1:hover .image {
+    opacity: 1;
+  }
+  
+  .container1:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    
+    color: white;
+    font-size: 16px;
+
+  }
+  .ss:hover{
+    background-color: #FFC451 !important;
+    color: black !important;
+    transition: 1s;
+  }
+  .ss{
+    transition: 1s !important;
+  }
+
+    .n{
+    background-image: url(pricing-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+    .ba{
+    background-color:#ffc451 !important;
+    color:black !important;
+    padding:5px 14px 14px 15px;
+    border-radius: 5px;
+  }
+ 
+
+  .footer {
+    background-color:black; 
+    color: #fff; 
+    padding: 30px 0; 
+}
+
+
+
+.footer-about .logo {
+    font-size: 24px; 
+    font-weight: bold; 
+    color: white;
+}
+
+.footer-contact p {
+    margin: 5px 0; 
+}
+
+.social-links a {
+    color: #Fff; 
+    margin-right: 15px; 
+    font-size: 30px; 
+    transition: color 0.3s; 
+}
+
+.social-links a:hover {
+    color: #FFC451;
+}
+
+.footer-links {
+    margin-bottom: 30px; 
+}
+
+.footer-links h4 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0; 
+}
+
+.footer-links ul li {
+    margin-bottom: 10px; 
+}
+
+.footer-links ul li a {
+    color: #fff; 
+    text-decoration: none;
+    transition: color 0.3s; 
+}
+
+.footer-links ul li a:hover {
+    color: #FFC451; 
+}
+
+.footer-newsletter {
+    margin-top: 20px; 
+}
+
+.newsletter-form {
+    display: flex; 
+}
+
+.newsletter-form input[type="email"] {
+    padding: 10px; 
+    border: none; 
+    border-radius: 5px; 
+    margin-right: px; 
+    flex: 1; 
+}
+
+.newsletter-form input[type="submit"] {
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    background-color: #FFC451; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+}
+
+.newsletter-form input[type="submit"]:hover {
+    background-color: #e6b843; 
+}
+
+.loading, .error-message, .sent-message {
+    display: none
+}
+
+.copyright {
+    padding: 20px 0; 
+}
+
+.copyright p {
+    margin: 0; 
+}
+
+.credits {
+    margin-top: 10px; 
+    font-size: 14px; 
+}
+
+.credits a {
+    color: #FFC451; 
+    text-decoration: none; 
+}
+
+.credits a:hover {
+    text-decoration: underline; 
+}
+
+.golu{
+  margin-left: 270px;
+   border: 2px solid #FFC451;
+    padding-left: 20px;
+     padding-right: 20px;
+     color: white;
+     background-color: black;
+     font-size: 14px;
+}
+
+.golu:hover{
+  background-color: #FFC451;
+}
+
+.portfolio-filters {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 1rem; 
+    justify-content: center; 
+    margin: 1rem 0;
+    font-size: 14px;
+}
+
+.portfolio-filters li {
+    cursor: pointer;
+    padding: 10px 20px; 
+    border-radius: 1px; 
+    background-color: #f8f9fa; 
+}
+
+.portfolio-filters li:hover {
+    background-color: #FFC451; 
+}
+
+
+.navbar {
+    background-color: rgb(48, 45, 45);
+}
+
+.navbar-brand {
+    font-size: 40px;
+    margin-left: 110px;
+    color: white;
+}
+
+
+.navbar-nav .nav-link {
+    color: white;
+    transition: color 0.3s ease; 
+}
+
+.navbar-nav .nav-link.active {
+  color: white;
+}
+
+
+.navbar-nav .nav-link:hover {
+    color: #FFC451; 
+}
+
+
+.btn-warning {
+    margin-left: 10px; 
+}
+
+.btn-outline-light {
+    color: white; 
+    border-color: white; 
+}
+
+.btn-outline-light:hover {
+    color: white;
+}
+
+.btn-light {
+    margin-left: 10px;
+    transition: background-color 0.3s ease, color 0.3s ease; 
+}
+
+.btn-light:hover {
+    background-color: #FFC451;
+    color: white; 
+}
+
+
+.p7{
+    color: lightgray;
+    background-color: rgb(42, 39, 39);
+    padding: 12px;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+.p7:hover{
+    color: rgb(42, 39, 39);
+    background-color: rgb(255, 196, 81);
+    padding: 12px;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+.p8{
+    color: lightgray;
+    background-color: rgb(42, 39, 39);
+    padding: 12px;
+    margin: 0px 5px;
+    border-radius: 5px;
+}
+.p8:hover{
+    color: rgb(42, 39, 39);
+    background-color: rgb(255, 196, 81);
+    padding: 12px;
+    margin: 0px 5px;
+    border-radius: 5px;
+}
