@@ -1,557 +1,711 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Index - Gp Bootstrap Template</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
 
-  <title>Gp Bootstrap Template</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+  
+  <!-- Favicons -->
+  <link href="https://bootstrapmade.com/content/demo/Gp/assets/img/favicon.png" rel="icon">
+  <link href="https://bootstrapmade.com/content/demo/Gp/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-  <!-- Gooogle Fonts -->
-  <link
-    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
-    rel="stylesheet">
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+  <link href="https://bootstrapmade.com/content/vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link href="https://bootstrapmade.com/content/vendors/aos/aos.css" rel="stylesheet">
+  <link href="https://bootstrapmade.com/content/vendors/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="https://bootstrapmade.com/content/vendors/glightbox/css/glightbox.min.css" rel="stylesheet">
 
-  <!-- Template Main CSS File -->
+  <!-- Main CSS File -->
   <link href="gp.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Gp
+  * Template URL: https://bootstrapmade.com/gp-free-multipurpose-html-bootstrap-template/
+  * Updated: Aug 15 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
 </head>
 
-<body>
+<body class="index-page">
 
-  <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top ">
-    <div class="container d-flex align-items-center justify-content-lg-between">
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
 
-      <h1 class="logo me-auto me-lg-0"><a href="gp.html">GP<span>.</span></a></h1>
+      <a href="gp.html" class="logo d-flex align-items-center me-auto me-lg-0">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="https://bootstrapmade.com/content/demo/Gp/assets/img/logo.png" alt=""> -->
+        <h1 class="sitename">GP</h1>
+        <span>.</span>
+      </a>
 
-      <nav id="navbar" class="navbar order-last order-lg-0">
+      <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="#about">About</a></li>
-          <li><a class="nav-link scrollto" href="#services">Services</a></li>
-          <li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li>
-          <li><a class="nav-link scrollto" href="#team">Team</a></li>
-          <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
+          <li><a href="#hero" class="active">Home<br></a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#team">Team</a></li>
+          <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
+              <li><a href="#">Dropdown 1</a></li>
+              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
                 <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
+                  <li><a href="#">Deep Dropdown 1</a></li>
+                  <li><a href="#">Deep Dropdown 2</a></li>
+                  <li><a href="#">Deep Dropdown 3</a></li>
+                  <li><a href="#">Deep Dropdown 4</a></li>
+                  <li><a href="#">Deep Dropdown 5</a></li>
                 </ul>
               </li>
-              <li><a href="#">Drop Down 2</a></li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
+              <li><a href="#">Dropdown 2</a></li>
+              <li><a href="#">Dropdown 3</a></li>
+              <li><a href="#">Dropdown 4</a></li>
             </ul>
           </li>
-          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
 
-      <a href="#about" class="get-started-btn scrollto">Get Started</a>
-
-    </div>
-  </header><!-- End Header -->
-
-  <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex align-items-center justify-content-center">
-    <div class="container" data-aos="fade-up">
-
-      <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="150">
-        <div class="col-xl-6 col-lg-8">
-          <h1>Powerful Digital Solutions With GP<span>.</span></h1>
-          <h2>We are team of talented digital marketers</h2>
-        </div>
-      </div>
-
-      <div class="row gy-4 mt-5 justify-content-center" data-aos="zoom-in" data-aos-delay="250">
-        <div class="col-xl-2 col-md-4">
-          <div class="icon-box">
-            <i class="bi bi-binoculars"></i>
-            <h3><a href="">Lorem Ipsum</a></h3>
-          </div>
-        </div>
-        <div class="col-xl-2 col-md-4">
-          <div class="icon-box">
-            <i class="bi bi-bullseye"></i>
-            <h3><a href="">Dolor Sitema</a></h3>
-          </div>
-        </div>
-        <div class="col-xl-2 col-md-4">
-          <div class="icon-box">
-            <i class="bi bi-fullscreen-exit"></i>
-            <h3><a href="">Sedare Perspiciatis</a></h3>
-          </div>
-        </div>
-        <div class="col-xl-2 col-md-4">
-          <div class="icon-box">
-            <i class="bi bi-card-list"></i>
-            <h3><a href="">Magni Dolores</a></h3>
-          </div>
-        </div>
-        <div class="col-xl-2 col-md-4">
-          <div class="icon-box">
-            <i class="bi bi-gem"></i>
-            <h3><a href="">Nemos Enimade</a></h3>
-          </div>
-        </div>
-      </div>
+      <a class="btn-getstarted" href="#about">Get Started</a>
 
     </div>
-  </section><!-- End Hero -->
+  </header>
 
-  <main id="main">
+  <main class="main">
 
-    <!-- ======= About Section ======= -->
-    <section id="about" class="about">
-      <div class="container" data-aos="fade-up">
+    <!-- Hero Section -->
+    <section id="hero" class="hero section dark-background">
 
-        <div class="row">
-          <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
-            <img src="https://bootstrapmade.com/demo/templates/Gp/assets/img/about.jpg" class="img-fluid" alt="">
+      <img src="https://bootstrapmade.com/content/demo/Gp/assets/img/hero-bg.jpg" alt="" data-aos="fade-in">
+
+      <div class="container">
+
+        <div class="row justify-content-center text-center" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-xl-6 col-lg-8">
+            <h2>Powerful Digital Solutions With GP<span>.</span></h2>
+            <p>We are team of talented digital marketers</p>
           </div>
-          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
-            <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
+        </div>
+
+        <div class="row gy-4 mt-5 justify-content-center" data-aos="fade-up" data-aos-delay="200">
+          <div class="col-xl-2 col-md-4" data-aos="fade-up" data-aos-delay="300">
+            <div class="icon-box">
+              <i class="bi bi-binoculars"></i>
+              <h3><a href="">Lorem Ipsum</a></h3>
+            </div>
+          </div>
+          <div class="col-xl-2 col-md-4" data-aos="fade-up" data-aos-delay="400">
+            <div class="icon-box">
+              <i class="bi bi-bullseye"></i>
+              <h3><a href="">Dolor Sitema</a></h3>
+            </div>
+          </div>
+          <div class="col-xl-2 col-md-4" data-aos="fade-up" data-aos-delay="500">
+            <div class="icon-box">
+              <i class="bi bi-fullscreen-exit"></i>
+              <h3><a href="">Sedare Perspiciatis</a></h3>
+            </div>
+          </div>
+          <div class="col-xl-2 col-md-4" data-aos="fade-up" data-aos-delay="600">
+            <div class="icon-box">
+              <i class="bi bi-card-list"></i>
+              <h3><a href="">Magni Dolores</a></h3>
+            </div>
+          </div>
+          <div class="col-xl-2 col-md-4" data-aos="fade-up" data-aos-delay="700">
+            <div class="icon-box">
+              <i class="bi bi-gem"></i>
+              <h3><a href="">Nemos Enimade</a></h3>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+          <div class="col-lg-6 order-1 order-lg-2">
+            <img src="https://bootstrapmade.com/content/demo/Gp/assets/img/about.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-6 order-2 order-lg-1 content">
+            <h3>Voluptatem dignissimos provident</h3>
             <p class="fst-italic">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-              dolore
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
               magna aliqua.
             </p>
             <ul>
-              <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-              <li><i class="bi bi-check-circle"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-              <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla
-                pariatur.</li>
+              <li><i class="bi bi-check2-all"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></li>
+              <li><i class="bi bi-check2-all"></i> <span>Duis aute irure dolor in reprehenderit in voluptate velit.</span></li>
+              <li><i class="bi bi-check2-all"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</span></li>
             </ul>
             <p>
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-              voluptate
+              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
               velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident
             </p>
           </div>
         </div>
 
       </div>
-    </section><!-- End About Section -->
 
-    <!-- ======= Clients Section ======= -->
-    <section id="clients" class="clients">
-      <div class="container" data-aos="zoom-in">
+    </section><!-- /About Section -->
 
-        <div class="clients-carousel owl-carousel owl-theme">
-          <div class="item"><img
-              src="https://bootstrapmade.com/demo/templates/QuickStart/assets/img/clients/client-1.png"
-              class="img-fluid" alt=""></div>
-          <div class="item"><img
-              src="https://bootstrapmade.com/demo/templates/QuickStart/assets/img/clients/client-2.png"
-              class="img-fluid" alt=""></div>
-          <div class="item"><img
-              src="https://bootstrapmade.com/demo/templates/QuickStart/assets/img/clients/client-3.png"
-              class="img-fluid" alt=""></div>
-          <div class="item"><img
-              src="https://bootstrapmade.com/demo/templates/QuickStart/assets/img/clients/client-4.png"
-              class="img-fluid" alt=""></div>
-          <div class="item"><img
-              src="https://bootstrapmade.com/demo/templates/QuickStart/assets/img/clients/client-5.png"
-              class="img-fluid" alt=""></div>
-          <div class="item"><img
-              src="https://bootstrapmade.com/demo/templates/QuickStart/assets/img/clients/client-6.png"
-              class="img-fluid" alt=""></div>
+    <!-- Clients Section -->
+    <section id="clients" class="clients section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              },
+              "breakpoints": {
+                "320": {
+                  "slidesPerView": 2,
+                  "spaceBetween": 40
+                },
+                "480": {
+                  "slidesPerView": 3,
+                  "spaceBetween": 60
+                },
+                "640": {
+                  "slidesPerView": 4,
+                  "spaceBetween": 80
+                },
+                "992": {
+                  "slidesPerView": 6,
+                  "spaceBetween": 120
+                }
+              }
+            }
+          </script>
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide"><img src="https://bootstrapmade.com/content/demo/Gp/assets/img/clients/client-1.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="https://bootstrapmade.com/content/demo/Gp/assets/img/clients/client-2.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="https://bootstrapmade.com/content/demo/Gp/assets/img/clients/client-3.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="https://bootstrapmade.com/content/demo/Gp/assets/img/clients/client-4.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="https://bootstrapmade.com/content/demo/Gp/assets/img/clients/client-5.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="https://bootstrapmade.com/content/demo/Gp/assets/img/clients/client-6.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="https://bootstrapmade.com/content/demo/Gp/assets/img/clients/client-7.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="https://bootstrapmade.com/content/demo/Gp/assets/img/clients/client-8.png" class="img-fluid" alt=""></div>
+          </div>
+          <div class="swiper-pagination"></div>
         </div>
 
       </div>
-    </section><!-- End Clients Section -->
 
-    <!-- ======= Features Section ======= -->
-    <section id="features" class="features">
-      <div class="container" data-aos="fade-up">
+    </section><!-- /Clients Section -->
 
-        <div class="row">
-          <div class="image col-lg-6"
-            style='background-image: url("https://bootstrapmade.com/demo/templates/Gp/assets/img/features-bg.jpg");'
-            data-aos="fade-right"></div>
-          <div class="col-lg-6" data-aos="fade-left" data-aos-delay="100">
-            <div class="icon-box mt-5 mt-lg-0" data-aos="zoom-in" data-aos-delay="150">
-              <i class="bi bi-receipt"></i>
-              <h4>Est labore ad</h4>
-              <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
-            </div>
-            <div class="icon-box mt-5" data-aos="zoom-in" data-aos-delay="150">
-              <i class="bi bi-cube-alt"></i>
-              <h4>Harum esse qui</h4>
-              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
-            </div>
-            <div class="icon-box mt-5" data-aos="zoom-in" data-aos-delay="150">
-              <i class="bi bi-images"></i>
-              <h4>Aut occaecati</h4>
-              <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
-            </div>
-            <div class="icon-box mt-5" data-aos="zoom-in" data-aos-delay="150">
-              <i class="bi bi-shield"></i>
-              <h4>Beatae veritatis</h4>
-              <p>Expedita veritatis consequuntur nihil tempore laudantium vitae denat pacta</p>
-            </div>
+    <!-- Features Section -->
+    <section id="features" class="features section">
+
+      <div class="container">
+
+        <div class="row gy-4">
+          <div class="features-image col-lg-6" data-aos="fade-up" data-aos-delay="100"><img src="https://bootstrapmade.com/content/demo/Gp/assets/img/features-bg.jpg" alt=""></div>
+          <div class="col-lg-6">
+
+            <div class="features-item d-flex ps-0 ps-lg-3 pt-4 pt-lg-0" data-aos="fade-up" data-aos-delay="200">
+              <i class="bi bi-archive flex-shrink-0"></i>
+              <div>
+                <h4>Est labore ad</h4>
+                <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+              </div>
+            </div><!-- End Features Item-->
+
+            <div class="features-item d-flex mt-5 ps-0 ps-lg-3" data-aos="fade-up" data-aos-delay="300">
+              <i class="bi bi-basket flex-shrink-0"></i>
+              <div>
+                <h4>Harum esse qui</h4>
+                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
+              </div>
+            </div><!-- End Features Item-->
+
+            <div class="features-item d-flex mt-5 ps-0 ps-lg-3" data-aos="fade-up" data-aos-delay="400">
+              <i class="bi bi-broadcast flex-shrink-0"></i>
+              <div>
+                <h4>Aut occaecati</h4>
+                <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
+              </div>
+            </div><!-- End Features Item-->
+
+            <div class="features-item d-flex mt-5 ps-0 ps-lg-3" data-aos="fade-up" data-aos-delay="500">
+              <i class="bi bi-camera-reels flex-shrink-0"></i>
+              <div>
+                <h4>Beatae veritatis</h4>
+                <p>Expedita veritatis consequuntur nihil tempore laudantium vitae denat pacta</p>
+              </div>
+            </div><!-- End Features Item-->
+
           </div>
         </div>
 
       </div>
-    </section><!-- End Features Section -->
 
-    <!-- ======= Services Section ======= -->
-    <section id="services" class="services">
-      <div class="container" data-aos="fade-up">
+    </section><!-- /Features Section -->
 
-        <div class="section-title">
-          <h2>Services</h2>
-          <p>Check our Services</p>
-        </div>
+    <!-- Services Section -->
+    <section id="services" class="services section">
 
-        <div class="row">
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
-            <div class="icon-box">
-              <div class="icon"><i class="bi bi-dribbble"></i></div>
-              <h4><a href="">Nesciunt Mete</a></h4>
-              <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis
-                tempore et consequatur.</p>
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Services</h2>
+        <p>Check our Services</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-activity"></i>
+              </div>
+              <a href="https://bootstrapmade.com/content/demo/Gp/service-details.html" class="stretched-link">
+                <h3>Nesciunt Mete</h3>
+              </a>
+              <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</p>
             </div>
-          </div>
+          </div><!-- End Service Item -->
 
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in"
-            data-aos-delay="200">
-            <div class="icon-box">
-              <div class="icon"><i class="bi bi-file-earmark-text"></i></div>
-              <h4><a href="">Eosle Commodi</a></h4>
-              <p>Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non ut
-                nesciunt dolorem.</p>
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-broadcast"></i>
+              </div>
+              <a href="https://bootstrapmade.com/content/demo/Gp/service-details.html" class="stretched-link">
+                <h3>Eosle Commodi</h3>
+              </a>
+              <p>Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non ut nesciunt dolorem.</p>
             </div>
-          </div>
+          </div><!-- End Service Item -->
 
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in"
-            data-aos-delay="300">
-            <div class="icon-box">
-              <div class="icon"><i class="bi bi-speedometer2"></i></div>
-              <h4><a href="">Ledo Markt</a></h4>
-              <p>Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci
-                eos earum corrupti.</p>
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-easel"></i>
+              </div>
+              <a href="https://bootstrapmade.com/content/demo/Gp/service-details.html" class="stretched-link">
+                <h3>Ledo Markt</h3>
+              </a>
+              <p>Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti.</p>
             </div>
-          </div>
+          </div><!-- End Service Item -->
 
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
-            <div class="icon-box">
-              <div class="icon"><i class="bi bi-world"></i></div>
-              <h4><a href="">Asperiores Commodit</a></h4>
-              <p>Non et temporibus minus omnis sed dolor esse consequatur. Cupiditate sed error ea fuga sit provident
-                adipisci neque.</p>
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-bounding-box-circles"></i>
+              </div>
+              <a href="https://bootstrapmade.com/content/demo/Gp/service-details.html" class="stretched-link">
+                <h3>Asperiores Commodit</h3>
+              </a>
+              <p>Non et temporibus minus omnis sed dolor esse consequatur. Cupiditate sed error ea fuga sit provident adipisci neque.</p>
+              <a href="https://bootstrapmade.com/content/demo/Gp/service-details.html" class="stretched-link"></a>
             </div>
-          </div>
+          </div><!-- End Service Item -->
 
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
-            <div class="icon-box">
-              <div class="icon"><i class="bi bi-slideshow"></i></div>
-              <h4><a href="">Velit Doloremque</a></h4>
-              <p>Cumque et suscipit saepe. Est maiores autem enim facilis ut aut ipsam corporis aut. Sed animi at autem
-                alias eius labore.</p>
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-calendar4-week"></i>
+              </div>
+              <a href="https://bootstrapmade.com/content/demo/Gp/service-details.html" class="stretched-link">
+                <h3>Velit Doloremque</h3>
+              </a>
+              <p>Cumque et suscipit saepe. Est maiores autem enim facilis ut aut ipsam corporis aut. Sed animi at autem alias eius labore.</p>
+              <a href="https://bootstrapmade.com/content/demo/Gp/service-details.html" class="stretched-link"></a>
             </div>
-          </div>
+          </div><!-- End Service Item -->
 
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
-            <div class="icon-box">
-              <div class="icon"><i class="bi bi-arch"></i></div>
-              <h4><a href="">Dolori Architecto</a></h4>
-              <p>Hic molestias ea quibusdam eos. Fugiat enim doloremque aut neque non et debitis iure. Corrupti
-                recusandae ducimus enim.</p>
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-chat-square-text"></i>
+              </div>
+              <a href="https://bootstrapmade.com/content/demo/Gp/service-details.html" class="stretched-link">
+                <h3>Dolori Architecto</h3>
+              </a>
+              <p>Hic molestias ea quibusdam eos. Fugiat enim doloremque aut neque non et debitis iure. Corrupti recusandae ducimus enim.</p>
+              <a href="https://bootstrapmade.com/content/demo/Gp/service-details.html" class="stretched-link"></a>
             </div>
-          </div>
+          </div><!-- End Service Item -->
 
         </div>
 
       </div>
-    </section><!-- End Services Section -->
 
-    <!-- ======= Cta Section ======= -->
-    <section id="cta" class="cta">
-      <div class="container" data-aos="zoom-in">
+    </section><!-- /Services Section -->
 
-        <div class="text-center">
-          <h3>Call To Action</h3>
-          <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-            laborum.</p>
-          <a class="cta-btn" href="#">Call To Action</a>
-        </div>
+    <!-- Call To Action Section -->
+    <section id="call-to-action" class="call-to-action section dark-background">
 
-      </div>
-    </section><!-- End Cta Section -->
+      <img src="https://bootstrapmade.com/content/demo/Gp/assets/img/cta-bg.jpg" alt="">
 
-    <!-- ======= Portfolio Section ======= -->
-    <section id="portfolio" class="portfolio">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Portfolio</h2>
-          <p>Check our Portfolio</p>
-        </div>
-
-        <div class="row" data-aos="fade-up" data-aos-delay="100">
-          <div class="col-lg-12 d-flex justify-content-center">
-            <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-app">App</li>
-              <li data-filter=".filter-card">Card</li>
-              <li data-filter=".filter-web">Web</li>
-            </ul>
+      <div class="container">
+        <div class="row justify-content-center" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-xl-10">
+            <div class="text-center">
+              <h3>Call To Action</h3>
+              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <a class="cta-btn" href="#">Call To Action</a>
+            </div>
           </div>
         </div>
+      </div>
 
-        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+    </section><!-- /Call To Action Section -->
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img
-                src="https://bootstrapmade.com/demo/templates/BizLand/assets/img/masonry-portfolio/masonry-portfolio-1.jpg"
-                class="img-fluid" alt="">
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Portfolio</h2>
+        <p>Check our Portfolio</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+            <li data-filter="*" class="filter-active">All</li>
+            <li data-filter=".filter-app">App</li>
+            <li data-filter=".filter-product">Card</li>
+            <li data-filter=".filter-branding">Web</li>
+          </ul><!-- End Portfolio Filters -->
+
+          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <img src="https://bootstrapmade.com/content/demo/Gp/assets/img/masonry-portfolio/masonry-portfolio-1.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>App 1</h4>
-                <p>App</p>
-                <div class="portfolio-links">
-                  <a href="#" title="More Details"><i class="bi bi-link"></i></a>
-                </div>
+                <p>Lorem ipsum, dolor sit</p>
+                <a href="https://bootstrapmade.com/content/demo/Gp/assets/img/masonry-portfolio/masonry-portfolio-1.jpg" title="App 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="https://bootstrapmade.com/content/demo/Gp/portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
-            </div>
-          </div>
+            </div><!-- End Portfolio Item -->
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img
-                src="https://bootstrapmade.com/demo/templates/BizLand/assets/img/masonry-portfolio/masonry-portfolio-2.jpg"
-                class="img-fluid" alt="">
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <img src="https://bootstrapmade.com/content/demo/Gp/assets/img/masonry-portfolio/masonry-portfolio-2.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>Web 3</h4>
-                <p>Web</p>
-                <div class="portfolio-links">
-                  <a href="#" title="More Details"><i class="bi bi-link"></i></a>
-                </div>
+                <h4>Product 1</h4>
+                <p>Lorem ipsum, dolor sit</p>
+                <a href="https://bootstrapmade.com/content/demo/Gp/assets/img/masonry-portfolio/masonry-portfolio-2.jpg" title="Product 1" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="https://bootstrapmade.com/content/demo/Gp/portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
-            </div>
-          </div>
+            </div><!-- End Portfolio Item -->
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img
-                src="https://bootstrapmade.com/demo/templates/BizLand/assets/img/masonry-portfolio/masonry-portfolio-3.jpg"
-                class="img-fluid" alt="">
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <img src="https://bootstrapmade.com/content/demo/Gp/assets/img/masonry-portfolio/masonry-portfolio-3.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Branding 1</h4>
+                <p>Lorem ipsum, dolor sit</p>
+                <a href="https://bootstrapmade.com/content/demo/Gp/assets/img/masonry-portfolio/masonry-portfolio-3.jpg" title="Branding 1" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="https://bootstrapmade.com/content/demo/Gp/portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <img src="https://bootstrapmade.com/content/demo/Gp/assets/img/masonry-portfolio/masonry-portfolio-4.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>App 2</h4>
-                <p>App</p>
-                <div class="portfolio-links">
-                  <a href="#" title="More Details"><i class="bi bi-link"></i></a>
-                </div>
+                <p>Lorem ipsum, dolor sit</p>
+                <a href="https://bootstrapmade.com/content/demo/Gp/assets/img/masonry-portfolio/masonry-portfolio-4.jpg" title="App 2" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="https://bootstrapmade.com/content/demo/Gp/portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
-            </div>
-          </div>
+            </div><!-- End Portfolio Item -->
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img
-                src="https://bootstrapmade.com/demo/templates/BizLand/assets/img/masonry-portfolio/masonry-portfolio-6.jpg"
-                class="img-fluid" alt="">
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <img src="https://bootstrapmade.com/content/demo/Gp/assets/img/masonry-portfolio/masonry-portfolio-5.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>Card 2</h4>
-                <p>Card</p>
-                <div class="portfolio-links">
-                  <a href="#" title="More Details"><i class="bi bi-link"></i></a>
-                </div>
+                <h4>Product 2</h4>
+                <p>Lorem ipsum, dolor sit</p>
+                <a href="https://bootstrapmade.com/content/demo/Gp/assets/img/masonry-portfolio/masonry-portfolio-5.jpg" title="Product 2" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="https://bootstrapmade.com/content/demo/Gp/portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
-            </div>
-          </div>
+            </div><!-- End Portfolio Item -->
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img
-                src="https://bootstrapmade.com/demo/templates/BizLand/assets/img/masonry-portfolio/masonry-portfolio-5.jpg"
-                class="img-fluid" alt="">
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <img src="https://bootstrapmade.com/content/demo/Gp/assets/img/masonry-portfolio/masonry-portfolio-6.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>Web 2</h4>
-                <p>Web</p>
-                <div class="portfolio-links">
-                  <a href="#" title="More Details"><i class="bi bi-link"></i></a>
-                </div>
+                <h4>Branding 2</h4>
+                <p>Lorem ipsum, dolor sit</p>
+                <a href="https://bootstrapmade.com/content/demo/Gp/assets/img/masonry-portfolio/masonry-portfolio-6.jpg" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="https://bootstrapmade.com/content/demo/Gp/portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
-            </div>
-          </div>
+            </div><!-- End Portfolio Item -->
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img
-                src="https://bootstrapmade.com/demo/templates/BizLand/assets/img/masonry-portfolio/masonry-portfolio-4.jpg"
-                class="img-fluid" alt="">
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <img src="https://bootstrapmade.com/content/demo/Gp/assets/img/masonry-portfolio/masonry-portfolio-7.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>App 3</h4>
-                <p>App</p>
-                <div class="portfolio-links">
-                  <a href="#" title="More Details"><i class="bi bi-link"></i></a>
-                </div>
+                <p>Lorem ipsum, dolor sit</p>
+                <a href="https://bootstrapmade.com/content/demo/Gp/assets/img/masonry-portfolio/masonry-portfolio-7.jpg" title="App 3" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="https://bootstrapmade.com/content/demo/Gp/portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <img src="https://bootstrapmade.com/content/demo/Gp/assets/img/masonry-portfolio/masonry-portfolio-8.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Product 3</h4>
+                <p>Lorem ipsum, dolor sit</p>
+                <a href="https://bootstrapmade.com/content/demo/Gp/assets/img/masonry-portfolio/masonry-portfolio-8.jpg" title="Product 3" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="https://bootstrapmade.com/content/demo/Gp/portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <img src="https://bootstrapmade.com/content/demo/Gp/assets/img/masonry-portfolio/masonry-portfolio-9.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Branding 3</h4>
+                <p>Lorem ipsum, dolor sit</p>
+                <a href="https://bootstrapmade.com/content/demo/Gp/assets/img/masonry-portfolio/masonry-portfolio-9.jpg" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="https://bootstrapmade.com/content/demo/Gp/portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+          </div><!-- End Portfolio Container -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Portfolio Section -->
+
+    <!-- Stats Section -->
+    <section id="stats" class="stats section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4 align-items-center justify-content-between">
+
+          <div class="col-lg-5">
+            <img src="https://bootstrapmade.com/content/demo/Gp/assets/img/stats-img.jpg" alt="" class="img-fluid">
+          </div>
+
+          <div class="col-lg-6">
+
+            <h3 class="fw-bold fs-2 mb-3">Voluptatem dignissimos provident quasi</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit
+            </p>
+
+            <div class="row gy-4">
+
+              <div class="col-lg-6">
+                <div class="stats-item d-flex">
+                  <i class="bi bi-emoji-smile flex-shrink-0"></i>
+                  <div>
+                    <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
+                    <p><strong>Happy Clients</strong> <span>consequuntur quae</span></p>
+                  </div>
+                </div>
+              </div><!-- End Stats Item -->
+
+              <div class="col-lg-6">
+                <div class="stats-item d-flex">
+                  <i class="bi bi-journal-richtext flex-shrink-0"></i>
+                  <div>
+                    <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
+                    <p><strong>Projects</strong> <span>adipisci atque cum quia aut</span></p>
+                  </div>
+                </div>
+              </div><!-- End Stats Item -->
+
+              <div class="col-lg-6">
+                <div class="stats-item d-flex">
+                  <i class="bi bi-headset flex-shrink-0"></i>
+                  <div>
+                    <span data-purecounter-start="0" data-purecounter-end="1453" data-purecounter-duration="1" class="purecounter"></span>
+                    <p><strong>Hours Of Support</strong> <span>aut commodi quaerat</span></p>
+                  </div>
+                </div>
+              </div><!-- End Stats Item -->
+
+              <div class="col-lg-6">
+                <div class="stats-item d-flex">
+                  <i class="bi bi-people flex-shrink-0"></i>
+                  <div>
+                    <span data-purecounter-start="0" data-purecounter-end="32" data-purecounter-duration="1" class="purecounter"></span>
+                    <p><strong>Hard Workers</strong> <span>rerum asperiores dolor</span></p>
+                  </div>
+                </div>
+              </div><!-- End Stats Item -->
+
             </div>
+
           </div>
 
         </div>
 
       </div>
-    </section><!-- End Portfolio Section -->
 
-    <!-- ======= Counts Section ======= -->
-    <section id="counts" class="counts">
-      <div class="container" data-aos="fade-up">
+    </section><!-- /Stats Section -->
 
-        <div class="row g-0">
-          <div class="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-lg-start"
-            data-aos="fade-right" data-aos-delay="100"></div>
-          <div class="col-xl-7 ps-0 ps-lg-5 pe-lg-1 d-flex align-items-stretch" data-aos="fade-left"
-            data-aos-delay="100">
-            <div class="content d-flex flex-column justify-content-center">
-              <h3>Voluptatem dignissimos provident quasi</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Duis aute irure dolor in reprehenderit
-              </p>
-              <div class="row">
-                <div class="col-md-6 d-md-flex align-items-md-stretch">
-                  <div class="count-box">
-                    <i class="bi bi-emoji-smile"></i>
-                    <span data-purecounter-start="0" data-purecounter-end="65" data-purecounter-duration="1"
-                      class="purecounter">65</span>
-                    <p><strong>Happy Clients</strong> consequuntur voluptas nostrum aliquid ipsam architecto ut.</p>
-                  </div>
-                </div>
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials section dark-background">
 
-                <div class="col-md-6 d-md-flex align-items-md-stretch">
-                  <div class="count-box">
-                    <i class="bi bi-journal-richtext"></i>
-                    <span data-purecounter-start="0" data-purecounter-end="85" data-purecounter-duration="1"
-                      class="purecounter">85</span>
-                    <p><strong>Projects</strong> adipisci atque cum quia aspernatur totam laudantium et quia dere tan
-                    </p>
-                  </div>
-                </div>
+      <img src="https://bootstrapmade.com/content/demo/Gp/assets/img/testimonials-bg.jpg" class="testimonials-bg" alt="">
 
-                <div class="col-md-6 d-md-flex align-items-md-stretch">
-                  <div class="count-box">
-                    <i class="bi bi-clock"></i>
-                    <span data-purecounter-start="0" data-purecounter-end="12" data-purecounter-duration="1"
-                      class="purecounter">12</span>
-                    <p><strong>Years of experience</strong> aut commodi quaerat modi aliquam nam ducimus aut pirate</p>
-                  </div>
-                </div>
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-                <div class="col-md-6 d-md-flex align-items-md-stretch">
-                  <div class="count-box">
-                    <i class="bi bi-award"></i>
-                    <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1"
-                      class="purecounter">15</span>
-                    <p><strong>Awards</strong> rerum asperiores dolor alias quo reprehenderit eum et nemo pad der</p>
-                  </div>
-                </div>
-              </div>
-            </div><!-- End .content-->
-          </div>
-        </div>
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              }
+            }
+          </script>
+          <div class="swiper-wrapper">
 
-      </div>
-    </section><!-- End Counts Section -->
-
-    <!-- ======= Testimonials Section ======= -->
-    <section id="testimonials" class="testimonials">
-      <div class="container" data-aos="zoom-in">
-
-        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
-          <div class="testimonials-carousel owl-carousel owl-theme">
-
-            <div class="item">
+            <div class="swiper-slide">
               <div class="testimonial-item">
-                <img src="https://bootstrapmade.com/demo/templates/Gp/assets/img/testimonials/testimonials-1.jpg"
-                  class="testimonial-img" alt="">
+                <img src="https://bootstrapmade.com/content/demo/Gp/assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
                 <h3>Saul Goodman</h3>
                 <h4>Ceo &amp; Founder</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
                 <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium
-                  quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
                 </p>
               </div>
-            </div>
+            </div><!-- End testimonial item -->
 
-            <div class="item">
+            <div class="swiper-slide">
               <div class="testimonial-item">
-                <img src="https://bootstrapmade.com/demo/templates/Gp/assets/img/testimonials/testimonials-2.jpg"
-                  class="testimonial-img" alt="">
+                <img src="https://bootstrapmade.com/content/demo/Gp/assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
                 <h3>Sara Wilsson</h3>
                 <h4>Designer</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
                 <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis
-                  quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
                 </p>
               </div>
-            </div>
+            </div><!-- End testimonial item -->
 
-            <div class="item">
+            <div class="swiper-slide">
               <div class="testimonial-item">
-                <img src="https://bootstrapmade.com/demo/templates/Gp/assets/img/testimonials/testimonials-3.jpg"
-                  class="testimonial-img" alt="">
+                <img src="https://bootstrapmade.com/content/demo/Gp/assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
                 <h3>Jena Karlis</h3>
                 <h4>Store Owner</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
                 <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim
-                  tempor labore quem eram duis noster aute amet eram fore quis sint minim.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
                 </p>
               </div>
-            </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="https://bootstrapmade.com/content/demo/Gp/assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+                <h3>Matt Brandon</h3>
+                <h4>Freelancer</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="https://bootstrapmade.com/content/demo/Gp/assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+                <h3>John Larson</h3>
+                <h4>Entrepreneur</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
 
           </div>
+          <div class="swiper-pagination"></div>
         </div>
 
       </div>
-    </section><!-- End Testimonials Section -->
 
-    <!-- ======= Team Section ======= -->
-    <section id="team" class="team">
-      <div class="container" data-aos="fade-up">
+    </section><!-- /Testimonials Section -->
 
-        <div class="section-title">
-          <h2>Team</h2>
-          <p>Check our Team</p>
-        </div>
+    <!-- Team Section -->
+    <section id="team" class="team section">
 
-        <div class="row">
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Team</h2>
+        <p>our Team</p>
+      </div><!-- End Section Title -->
 
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-            <div class="member" data-aos="fade-up" data-aos-delay="100">
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+            <div class="team-member">
               <div class="member-img">
-                <img src="https://bootstrapmade.com/demo/templates/BizLand/assets/img/team/team-1.jpg" class="img-fluid"
-                  alt="">
+                <img src="https://bootstrapmade.com/content/demo/Gp/assets/img/team/team-1.jpg" class="img-fluid" alt="">
                 <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-twitter-x"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
                   <a href=""><i class="bi bi-instagram"></i></a>
                   <a href=""><i class="bi bi-linkedin"></i></a>
@@ -562,15 +716,14 @@
                 <span>Chief Executive Officer</span>
               </div>
             </div>
-          </div>
+          </div><!-- End Team Member -->
 
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-            <div class="member" data-aos="fade-up" data-aos-delay="200">
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+            <div class="team-member">
               <div class="member-img">
-                <img src="https://bootstrapmade.com/demo/templates/BizLand/assets/img/team/team-2.jpg" class="img-fluid"
-                  alt="">
+                <img src="https://bootstrapmade.com/content/demo/Gp/assets/img/team/team-2.jpg" class="img-fluid" alt="">
                 <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-twitter-x"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
                   <a href=""><i class="bi bi-instagram"></i></a>
                   <a href=""><i class="bi bi-linkedin"></i></a>
@@ -581,15 +734,14 @@
                 <span>Product Manager</span>
               </div>
             </div>
-          </div>
+          </div><!-- End Team Member -->
 
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-            <div class="member" data-aos="fade-up" data-aos-delay="300">
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+            <div class="team-member">
               <div class="member-img">
-                <img src="https://bootstrapmade.com/demo/templates/BizLand/assets/img/team/team-3.jpg" class="img-fluid"
-                  alt="">
+                <img src="https://bootstrapmade.com/content/demo/Gp/assets/img/team/team-3.jpg" class="img-fluid" alt="">
                 <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-twitter-x"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
                   <a href=""><i class="bi bi-instagram"></i></a>
                   <a href=""><i class="bi bi-linkedin"></i></a>
@@ -600,15 +752,14 @@
                 <span>CTO</span>
               </div>
             </div>
-          </div>
+          </div><!-- End Team Member -->
 
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-            <div class="member" data-aos="fade-up" data-aos-delay="400">
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
+            <div class="team-member">
               <div class="member-img">
-                <img src="https://bootstrapmade.com/demo/templates/BizLand/assets/img/team/team-4.jpg" class="img-fluid"
-                  alt="">
+                <img src="https://bootstrapmade.com/content/demo/Gp/assets/img/team/team-4.jpg" class="img-fluid" alt="">
                 <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-twitter-x"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
                   <a href=""><i class="bi bi-instagram"></i></a>
                   <a href=""><i class="bi bi-linkedin"></i></a>
@@ -619,172 +770,196 @@
                 <span>Accountant</span>
               </div>
             </div>
-          </div>
+          </div><!-- End Team Member -->
 
         </div>
 
       </div>
-    </section><!-- End Team Section -->
 
-    <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact">
-      <div class="container" data-aos="fade-up">
+    </section><!-- /Team Section -->
 
-        <div class="section-title">
-          <h2>Contact</h2>
-          <p>Contact Us</p>
-        </div>
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
 
-        <div>
-          <iframe style="border:0; width: 100%; height: 270px;"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3517.956859298303!2d76.71498181130004!3d28.147801475832498!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d4f5bce6f88b9%3A0x301bfc3603a4cbec!2sJarthal%20School%20Ground!5e0!3m2!1sen!2sin!4v1719816434756!5m2!1sen!2sin"
-            frameborder="0" allowfullscreen></iframe>
-        </div>
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact</h2>
+        <p>Contact Us</p>
+      </div><!-- End Section Title -->
 
-        <div class="row mt-5">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="mb-4" data-aos="fade-up" data-aos-delay="200">
+          <iframe style="border:0; width: 100%; height: 270px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d48389.78314118045!2d-74.006138!3d40.710059!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a22a3bda30d%3A0xb89d1fe6bc499443!2sDowntown%20Conference%20Center!5e0!3m2!1sen!2sus!4v1676961268712!5m2!1sen!2sus" frameborder="0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div><!-- End Google Maps -->
+
+        <div class="row gy-4">
 
           <div class="col-lg-4">
-            <div class="info">
-              <div class="address">
-                <i class="bi bi-geo-alt"></i>
-                <h4>Location:</h4>
+            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+              <i class="bi bi-geo-alt flex-shrink-0"></i>
+              <div>
+                <h3>Address</h3>
                 <p>A108 Adam Street, New York, NY 535022</p>
               </div>
+            </div><!-- End Info Item -->
 
-              <div class="email">
-                <i class="bi bi-envelope"></i>
-                <h4>Email:</h4>
-                <p>info@example.com</p>
+            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+              <i class="bi bi-telephone flex-shrink-0"></i>
+              <div>
+                <h3>Call Us</h3>
+                <p>+1 5589 55488 55</p>
               </div>
+            </div><!-- End Info Item -->
 
-              <div class="phone">
-                <i class="bi bi-phone"></i>
-                <h4>Call:</h4>
-                <p>+1 5589 55488 55s</p>
+            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="500">
+              <i class="bi bi-envelope flex-shrink-0"></i>
+              <div>
+                <h3>Email Us</h3>
+                <p><a href="mailto:info@example.com">info@example.com</a></p>
               </div>
-
-            </div>
+            </div><!-- End Info Item -->
 
           </div>
 
-          <div class="col-lg-8 mt-5 mt-lg-0">
+          <div class="col-lg-8">
+            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+              <div class="row gy-4">
 
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-              <div class="row">
-                <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                <div class="col-md-6">
+                  <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
                 </div>
-                <div class="col-md-6 form-group mt-3 mt-md-0">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+
+                <div class="col-md-6 ">
+                  <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
                 </div>
+
+                <div class="col-md-12">
+                  <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
+                </div>
+
+                <div class="col-md-12 text-center">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your message has been sent. Thank you!</div>
+
+                  <button type="submit">Send Message</button>
+                </div>
+
               </div>
-              <div class="form-group mt-3">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
-              </div>
-              <div class="form-group mt-3">
-                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
-              </div>
-              <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
             </form>
-
-          </div>
+          </div><!-- End Contact Form -->
 
         </div>
 
       </div>
-    </section><!-- End Contact Section -->
 
-  </main><!-- End #main -->
+    </section><!-- /Contact Section -->
 
-  <!-- ======= Footer ======= -->
-  <footer id="footer">
+  </main>
+
+  <footer id="footer" class="footer dark-background">
+
     <div class="footer-top">
       <div class="container">
-        <div class="row">
-
-          <div class="col-lg-3 col-md-6">
-            <div class="footer-info">
-              <h3>Gp<span>.</span></h3>
-              <p>
-                A108 Adam Street <br>
-                NY 535022, USA<br><br>
-                <strong>Phone:</strong> +1 5589 55488 55<br>
-                <strong>Email:</strong> info@example.com<br>
-              </p>
-              <div class="social-links mt-3">
-                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-                <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-              </div>
+        <div class="row gy-4">
+          <div class="col-lg-4 col-md-6 footer-about">
+            <a href="gp.html" class="logo d-flex align-items-center">
+              <span class="sitename">GP</span>
+            </a>
+            <div class="footer-contact pt-3">
+              <p>A108 Adam Street</p>
+              <p>New York, NY 535022</p>
+              <p class="mt-3"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
+              <p><strong>Email:</strong> <span><a href="mailto:info@example.com">info@example.com</a></span></p>
+            </div>
+            <div class="social-links d-flex mt-4">
+              <a href=""><i class="bi bi-twitter-x"></i></a>
+              <a href=""><i class="bi bi-facebook"></i></a>
+              <a href=""><i class="bi bi-instagram"></i></a>
+              <a href=""><i class="bi bi-linkedin"></i></a>
             </div>
           </div>
 
-          <div class="col-lg-2 col-md-6 footer-links">
+          <div class="col-lg-2 col-md-3 footer-links">
             <h4>Useful Links</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#"> Home</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#"> About us</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#"> Services</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#"> Terms of service</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#"> Privacy policy</a></li>
             </ul>
           </div>
 
-          <div class="col-lg-3 col-md-6 footer-links">
+          <div class="col-lg-2 col-md-3 footer-links">
             <h4>Our Services</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#"> Web Design</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#"> Web Development</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#"> Product Management</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#"> Marketing</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#"> Graphic Design</a></li>
             </ul>
           </div>
 
-          <div class="col-lg-4 col-md-6 footer-newsletter">
+          <div class="col-lg-4 col-md-12 footer-newsletter">
             <h4>Our Newsletter</h4>
-            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
-            <form action="" method="post">
-              <input type="email" name="email"><input type="submit" value="Subscribe">
+            <p>Subscribe to our newsletter and receive the latest news about our products and services!</p>
+            <form action="forms/newsletter.php" method="post" class="php-email-form">
+              <div class="newsletter-form"><input type="email" name="email"><input type="submit" value="Subscribe"></div>
+              <div class="loading">Loading</div>
+              <div class="error-message"></div>
+              <div class="sent-message">Your subscription request has been sent. Thank you!</div>
             </form>
-
           </div>
 
         </div>
       </div>
     </div>
 
-    <div class="container">
-      <div class="copyright">
-        &copy; Copyright <strong><span>Gp</span></strong>. All Rights Reserved
-      </div>
-      <div class="credits">
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+    <div class="copyright">
+      <div class="container text-center">
+        <p>&copy; <span>Copyright</span> <strong class="px-1 sitename">GP</strong> <span>All Rights Reserved</span></p>
+        <div class="credits">
+          <!-- All the links in the footer should remain intact. -->
+          <!-- You can delete the links only if you've purchased the pro version. -->
+          <!-- Licensing information: https://bootstrapmade.com/license/ -->
+          <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        </div>
       </div>
     </div>
-  </footer><!-- End Footer -->
 
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
   <div id="preloader"></div>
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
-      class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://bootstrapmade.com/content/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="https://bootstrapmade.com/content/vendors/php-email-form/validate.js"></script>
+  <script src="https://bootstrapmade.com/content/vendors/aos/aos.js"></script>
+  <script src="https://bootstrapmade.com/content/vendors/swiper/swiper-bundle.min.js"></script>
+  <script src="https://bootstrapmade.com/content/vendors/glightbox/js/glightbox.min.js"></script>
+  <script src="https://bootstrapmade.com/content/vendors/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="https://bootstrapmade.com/content/vendors/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="https://bootstrapmade.com/content/vendors/purecounter/purecounter_vanilla.js"></script>
 
-  <!-- Template Main JS File -->
+  <!-- Main JS File -->
   <script src="main.js"></script>
+
 
 </body>
 
 </html>
+
+
+
